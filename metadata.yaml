@@ -1,5 +1,5 @@
-name: 主动结束回复
-desc: 拦截并丢弃模型的一切纯文本输出，使其只能通过工具(tool)向用户发消息；并提供 end_reply 工具让模型说完后主动干净地结束本回合，避免空回复被判为无输出而重试报错
+name: 屏蔽回复
+desc: 拦截并丢弃模型的一切纯文本输出，使其只能通过工具(tool)向用户发消息
 version: 1.0.0
 author: amfysky
-repo: https://github.com/amfysky/astrbot_plugin_end_reply
+repo: https://github.com/amfysky/astrbot_plugin_block_reply
